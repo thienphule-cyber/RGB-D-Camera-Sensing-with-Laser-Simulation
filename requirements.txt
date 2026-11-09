@@ -1,0 +1,22 @@
+# Simulation
+mujoco>=3.1
+
+# Core numerics
+numpy>=1.24
+scipy>=1.10        # Hungarian (linear_sum_assignment), Rotation, linalg
+
+# Vision / point cloud
+opencv-python>=4.8 # Zhang calibration, image processing
+open3d>=0.18       # point cloud, plane fitting, clustering
+
+# Visualization / data
+matplotlib>=3.7
+pandas>=2.0
+
+# Config / utilities
+pyyaml>=6.0
+tqdm>=4.66
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1

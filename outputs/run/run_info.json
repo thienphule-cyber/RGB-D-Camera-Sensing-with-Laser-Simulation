@@ -1,0 +1,40 @@
+{
+  "config": {
+    "duration": 60.0,
+    "seed": 0,
+    "sensors": [
+      "rgbd",
+      "laser",
+      "lidar"
+    ],
+    "estimator": "ekf",
+    "use_imm": true,
+    "fusion": "sequential",
+    "calibration": "nominal",
+    "calibration_views": 12,
+    "rgbd_rate_hz": 30.0,
+    "laser_rate_hz": 20.0,
+    "lidar_rate_hz": 10.0,
+    "estimator_rate_hz": 100.0,
+    "laser_sweep": true,
+    "noise": true,
+    "viewer": true,
+    "speed": 1.0,
+    "video_path": null,
+    "video_period": 0.2,
+    "output_dir": "outputs/run",
+    "save_log": true,
+    "verbose": true
+  },
+  "calibration": {
+    "mode": "nominal"
+  },
+  "summary": {
+    "frames": 2400,
+    "tracks_created": 97,
+    "tracks_ever_confirmed": 40,
+    "coverage": 0.9733333333333334,
+    "nearest_track_rmse_m": 0.09922122224663785
+  },
+  "wall_time_s": 66.50073429197073
+}

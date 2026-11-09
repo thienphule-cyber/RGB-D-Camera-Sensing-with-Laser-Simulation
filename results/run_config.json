@@ -1,0 +1,18 @@
+{
+  "experiments": [
+    "E08"
+  ],
+  "duration_s": 30.0,
+  "seed": 0,
+  "gate_m": 0.5,
+  "runs": [
+    "all_ekf_imm_noiseless",
+    "all_ekf_imm",
+    "noise_x2",
+    "noise_x4",
+    "dropout_20",
+    "dropout_40",
+    "occlusion_zone"
+  ],
+  "elapsed_s": 352.5106665829662
+}
